@@ -1,3 +1,7 @@
+'''
+    Solicite ao usuário que insira um número e, em seguida, use uma estrutura if else para determinar se o número é par ou ímpar.
+'''
+
 def input_numero_impa_ou_par():
     numero = int(input('Digite um numero para verificar se é impar ou par: '))
     return numero

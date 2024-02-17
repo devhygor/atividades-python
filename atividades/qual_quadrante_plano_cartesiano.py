@@ -9,8 +9,8 @@
 """
 
 def get_coordenadas():
-    coordenada_x = int(input('Digite a coordenada X: '))
-    coordenada_y = int(input('Digite a coordenada Y: '))
+    coordenada_x = float(input('Digite a coordenada X: '))
+    coordenada_y = float(input('Digite a coordenada Y: '))
     return coordenada_x, coordenada_y
 
 def get_quadrante(x, y):
